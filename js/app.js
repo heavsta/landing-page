@@ -58,26 +58,7 @@ function isActive() {
 };
 
 
-
-
-/** Scroll to anchor ID using scrollTO event
-function scroll() {
-    const anchors = document.querySelectorAll('a');
-    for (let i = 0; i <= sections.length; i++) {
-        const top = sections[i].getBoundingClientRect().top + window.pageYOffset;
-        anchors[i].addEventListener('click', function(el) {
-            el.preventDefault();
-            window.scrollTo({
-                top,
-                behavior: 'smooth'
-            });
-        });
-    }
-};
-*/
-
-
-//simplier way
+//smooth scroll down
 const html = document.querySelector('html');
 html.setAttribute('style', 'scroll-behavior: smooth');
 
