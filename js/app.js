@@ -58,7 +58,8 @@ function isActive() {
 };
 
 
-//smooth scroll down
+//allowing smooth scroldown
+
 const html = document.querySelector('html');
 html.setAttribute('style', 'scroll-behavior: smooth');
 
