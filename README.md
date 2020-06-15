@@ -14,7 +14,7 @@ For specific, detailed instructions, look at the project instructions in the Uda
 
 ## Installation 
 
-Clone the github repo using this code : `git close https://github.com/heavsta/landing-page.git` 
+Clone the github repo using this code : `git clone https://github.com/heavsta/landing-page.git` 
 
 ## Screenshot 
 
